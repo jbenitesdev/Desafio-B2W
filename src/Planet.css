@@ -1,0 +1,123 @@
+.lista-planeta {
+    max-width: 500px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.lista-planeta article{
+
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.lista-planeta article span{
+
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+    line-height: 24px;
+  
+  }
+
+.lista-planeta article p{
+
+  font-size: 16px;
+  color: black;
+  margin-top: 5px;
+  line-height: 24px;
+
+}
+
+.lista-planeta article a{
+
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .lista-planeta  .botoes{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  }
+
+  .lista-planeta  .botoes button{
+      padding: 10px;
+      border-radius: 5px;
+      border: 0;
+      background: black;
+      color: yellow;
+      font-size: 16px;
+      font-weight: bold;
+      width: 107px;
+      margin: 22px;
+  }
+
+  .exibe-botao {
+    visibility: visible;
+  }
+
+.oculta-botao {
+  visibility: hidden;
+}
+
+.loading-page {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999999;
+}
+.loading-body{
+    width: 200px;
+    background-color: #fff;
+    height: 95px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: .8;
+    display: inline-block;
+}
+
+.loading-control {
+  height: 600px;
+  justify-content: center;
+  display: flex;
+  height: 600px;
+  align-items: center;
+}
+
+.icon-loading {
+  margin-top: 23px;
+  font-size: 25px;
+}
+
+
+/* .loading-page {
+  background-color: rgba(0, 0, 0, 0.12);
+  position: fixed;
+  height: 50%;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  z-index: 999999;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 23%;
+  margin-top: 8%;
+} */
