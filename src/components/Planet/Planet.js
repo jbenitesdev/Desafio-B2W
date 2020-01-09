@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 import'./Planet.css';
-import api from './services/service';
+import api from '../../services/service';
 
 class Planet extends Component{  
     constructor(props){
